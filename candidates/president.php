@@ -12,8 +12,8 @@
 
     <heading class="voters_heading">
         <center><h1>Registered President Candidates</h1>
-           <center>
-                <select onchange = "page(this.value)">
+           <<center style="padding: 6px">
+                <select onchange = "page(this.value)" style="scale:1.5">
                 <option disabled selected>Select Candidate Group</option>
                 <option disabled selected>President</option>
                 <option value = "pm.php">Prime Minister</option>

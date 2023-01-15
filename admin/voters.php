@@ -26,7 +26,7 @@
                         <h4 class="modal-title" id="myModalLabel">
                             <div class="panel panel-primary">
                                 <div class="panel-heading"><i class="fa fa-users"></i>
-                                    Voters List
+                                    Eligible Voter List
                                 </div>
                             </div>
                         </h4>
@@ -49,7 +49,7 @@
                                     <?php
                                     require 'dbcon.php';
 
-                                    $query = $conn->query("SELECT * FROM voters ORDER BY voters_id DESC");
+                                    $query = $conn->query("SELECT * FROM voters ORDER BY voters_id ASC");
                                     while ($row1 = $query->fetch_array()) {
                                         $voters_id = $row1['voters_id'];
                                     ?>

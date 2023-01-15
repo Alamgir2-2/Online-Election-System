@@ -38,7 +38,7 @@
 										<?php 
 											require 'dbcon.php';
 											
-											$query = $conn->query("SELECT * FROM ids ORDER BY id_number DESC");
+											$query = $conn->query("SELECT * FROM ids ORDER BY id_number ASC");
 											while($row1 = $query->fetch_array()){
 											$voters_id=$row1['id_number'];
 										?>

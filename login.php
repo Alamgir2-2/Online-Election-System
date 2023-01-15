@@ -12,15 +12,14 @@
             <div class="col-md-4 col-md-offset-4">
 			
                 <div class="login-panel"><!-- has form in it-->
-				
                     
-                    <div class="form-panel"><center>
+                    <div class="form-panel" style="padding: 4px"><center>
                         <i>Login As:</i>
-                        <select onchange = "page(this.value)">
+                        <select onchange = "page(this.value)" style="scale:1">
                             <option value = "admin/index.php">System Admin</option>
                             <option selected disables>Voter</option> 
                         </select>
-                        <p/>
+</p>
                     </center>
                         <form role="form" method = "post" enctype = "multipart/form-data" class="index-form">
                             <div class="form-heading">

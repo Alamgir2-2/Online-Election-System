@@ -11,8 +11,8 @@
         <div id="page-wrapper">
 
     <heading class="menue-select">
-            <center>
-                <select onchange = "page(this.value)">
+         <center style="padding: 8px">
+                <select onchange = "page(this.value)" style="scale:2">
                 <option disabled selected>Select Candidate Group</option>
                 <option value = "candidates/president.php">President</option>
                 <option value = "candidates/pm.php">Prime Minister</option>

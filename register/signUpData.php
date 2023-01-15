@@ -28,7 +28,7 @@
 		if ($count1 == 0) {
 			if ($password == $password1) {
 				$conn->query("insert into voters(id_number, password, firstname,lastname, gender,Age,status, date) VALUES('$id_number', '".md5($password)."','$firstname','$lastname', '$gender', '$age','Unvoted', '$date')");
-				$conn->query("insert into voters(id_number, password, firstname,lastname, gender,Age,status, date) VALUES('$id_number', '".md5($password)."','$firstname','$lastname', '$gender', '$age','Unvoted', '$date')");
+				// $conn->query("insert into voters(id_number, password, firstname,lastname, gender,Age,status, date) VALUES('$id_number', '".md5($password)."','$firstname','$lastname', '$gender', '$age','Unvoted', '$date')");
 
 
 			?>

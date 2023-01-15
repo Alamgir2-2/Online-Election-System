@@ -13,14 +13,14 @@
             </div>
             <div class="panel-body" style = "background-color:;">
 				<?php
-					$query = $conn->query("SELECT * FROM `candidate` WHERE `position` = 'MLA'") or die(mysqli_errno());
+					$query = $conn->query("SELECT * FROM `candidate` WHERE `position` = 'MP'") or die(mysqli_errno());
 					while($fetch = $query->fetch_array())
 					{
 				?>
 						<div id = "position">
 							<center><img src = "admin/<?php echo $fetch['img']?>" style ="border-radius:6px;" height = "150px" width = "150px" class = "img"></center>
-						<center><?php echo "<strong>Names: </strong>".$fetch['firstname']." ".$fetch['lastname']."<br/><strong>Gender: </strong> ".$fetch['gender']."<br/><strong>Age: </strong> ".$fetch['Age']."<br/><strong>Party: </strong> ".$fetch['party']?></center>
-						<center><input type = "checkbox" value = "<?php echo $fetch['candidate_id'] ?>" name = "mla_id" class = "mla">Give Vote</center>
+						<center style="font-size:20px"><?php echo "<strong>Names: </strong>".$fetch['firstname']." ".$fetch['lastname']."<br/><strong>Gender: </strong> ".$fetch['gender']."<br/><strong>Age: </strong> ".$fetch['Age']."<br/><strong>Party: </strong> ".$fetch['party']?></center>
+						<center style="font-size: 18px;scale: 1.2;"><input type = "checkbox" value = "<?php echo $fetch['candidate_id'] ?>" name = "mla_id" class = "mla">	Give Vote</center>
 						</div>
 	
 				<?php

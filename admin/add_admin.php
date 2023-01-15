@@ -64,7 +64,7 @@
 					$email=$_POST['email'];
 					
 					
-					$conn->query("INSERT INTO user(username,password,firstname,lastname,phone,email)values('$username','$password','$firstname','$lastname','$phone','$email')")or die($conn->error);
+					$conn->query("INSERT INTO user(username,password,firstname,lastname,phone,email)values('$username','".md5($password)."','$firstname','$lastname','$phone','$email')")or die($conn->error);
 				}						
 			?>					
         </div>

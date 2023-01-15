@@ -1,3 +1,4 @@
+
 <?php
 	require_once 'dbcon.php';
 	
@@ -25,7 +26,7 @@
 					{
 						?>
 						<script type="text/javascript">
-						alert('WelCome!');
+						// alert('WelCome!');
 						window.location = 'candidate.php';
 						</script>
 						<?php
@@ -42,3 +43,4 @@
 	
 	}
 	?>
+	
