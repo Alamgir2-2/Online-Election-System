@@ -12,7 +12,7 @@
                 </li>
                 <li><a href="../view.php">Candidates</a></li>
                 
-                <li><a href="../register/index.php">Register</a></li>
+                <li><a href="../register/index.php">Registration</a></li>
                 <li><a href="../voters.php">Voter List</a></li>
             </ul>
 </nav>
