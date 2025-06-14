@@ -33,7 +33,7 @@
 
                         <table class="table table-striped table-bordered table-hover ">
                             <thead>
-                                <td style="width:600px;font-size:medium;font-weight:bold" class="alert alert-success">Candidate for Prime Minister</td>
+                                <td style="width:600px;font-size:medium;font-weight:bold" class="alert alert-success">Candidate for Member</td>
                                 <td style="width:200px;" class="alert alert-success">Image</td>
                                 <td class="alert alert-success">Total</td>
 
@@ -62,7 +62,7 @@
 
                         <table class="table table-striped table-bordered table-hover ">
                             <thead>
-                                <td style="width:600px;font-size:medium;font-weight:bold" class="alert alert-success">Candidate for President</td>
+                                <td style="width:600px;font-size:medium;font-weight:bold" class="alert alert-success">Candidate for Chairman</td>
                                 <td style="width:200px;" class="alert alert-success">Image</td>
                                 <td class="alert alert-success">Total</td>
 

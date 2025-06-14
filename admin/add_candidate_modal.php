@@ -18,9 +18,9 @@
 						<label>Position</label>
 						<select class = "form-control" name = "position">
 								<option selected disabled>Select Candidate Group</option>
-								<option>President</option>
-								<option>Prime Minister</option>
-								<option>MP</option>
+								<option>Chairman</option>
+								<option>Member</option>
+								<option>Member of Perliament</option>
 							</select>
 					</div>
 					<div class="form-group">
